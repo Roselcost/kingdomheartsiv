@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Sora",
+    "img": "characters/sora.jpeg",
+    "description": "After abusing the Power of Waking to save his friends and defeat Xehanort, he is confronted by an enigmatic figure named Yozora on top of a building, surrounded by many other skyscrappers. After that, he is awaken calmly in an apartment by Strelitzia, who will let him know that he is in Quadratum, a world unlike any other he has been before. With her help, Sora will get used to this new place but shortly after he will face an enormous heartless that is threatening the whole city and its inhabitants."
+  },
+  {
+    "id": 2,
+    "name": "Riku",
+    "img": "characters/riku.jpeg",
+    "description": "After finding out about Sora's dissapearance, Riku gets heavily involved into finding Sora while the others embark in other important missions. A year later, Riku gets a valuable clue from Kairi and her memories. With help from the Fairy Godmother, Riku gets in contact with the Nameless Star, a girl from the other side who guides him to Quadratum, where Sora is waiting to be found. Therefore, Riku gets ready and uses the Power of Waking to get there."
+  },
+  {
+    "id": 3,
+    "name": "Strelitzia",
+    "img": "characters/strelitzia.jpeg",
+    "description": "A girl from the age of Fairytales, a Keyblade wielder and union leader like Lauriam, her older brother. After getting involved in an infamous incident, she is brought to Quadratum, or like she calls it sometimes, the Afterworld. Strelitzia finds Sora and brings him to her apartment, where he sleeps for seven days. A kind and helpful ally who will help Sora to settle down in this new and foreign setting."
+  },
+  {
+    "id": 4,
+    "name": "Yozora",
+    "img": "characters/yozora.jpeg",
+    "description": "Everything surrounding him is a mistery. A powerful rival from Quadratum who appears before Sora in the Final World. He claims that he went through some trials and his appearance doesn't represent how he truly looks like. After finding out the boy in front of him is Sora and because he was told to do so, he fights Sora with his reliable weapons, a crossbow and a sword and powers that Sora has never seen before. In his world, he is known as the Commander."
+  },
+  {
+    "id": 5,
+    "name": "The Foretellers",
+    "img": "characters/foretellers.jpeg",
+    "description": "Five powerful keyblade wielders from the age of Fairytales. It is unknown how Invi, Ira, Gula and Aced traveled forward to the present but they came to fullfill a mission assigned to them by the Master of Masters. How this is connected to Sora is something that has yet to be discovered. Ava, the last foreteller, was assigned a whole different mission. Her whereabouts are currently unknown."
+  },
+  {
+    "id": 6,
+    "name": "Sigurd and Master of Masters",
+    "img": "characters/sigurdmaster.jpeg",
+    "description": "Not so much is known about Sigurd, only that he comes from the past, from when the city of Scala ad Caelum was founded. On the other hand, the Master of Masters is a eccentric keyblade master that trained the five Foretellers and gave them the book of profecies, written thanks to the Gazing Eye, allowing him to see the future. Even if he firmly stands against the darkness, the Master's antics will surely put Sora and his allies in difficult situations."
+  }
+]

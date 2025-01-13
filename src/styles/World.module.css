@@ -1,0 +1,92 @@
+.world {
+  display: flex;
+  position: relative;
+  max-width: calc(min(500px, 80vw));
+}
+
+.world-bg {
+  position: absolute;
+  top: -200px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(3px) brightness(0.5);
+  z-index: -1;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
+  -webkit-mask-image: radial-gradient(
+    ellipse 64% 39% at 51% 76%,
+    black 49%,
+    transparent 78%
+  );
+  mask-image: radial-gradient(
+    ellipse 64% 39% at 51% 76%,
+    black 49%,
+    transparent 78%
+  );
+}
+
+.world-info {
+  background-color: var(--transparentBgColor);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.world-details h2 {
+  text-align: left;
+}
+
+.world-details-decoration {
+  display: flex;
+  align-items: center;
+  background-color: var(--accentBgColor);
+  border-radius: 12px;
+  border: 1px solid var(--borderColor);
+  max-width: 80vw;
+  flex-wrap: wrap;
+}
+
+.first-appearance {
+  border: 1px solid var(--accentColor);
+  border-radius: 12px 8px 8px 12px;
+  border-width: 1px 1px 1px 1px;
+  background-color: var(--transparentBgAccentColor);
+  padding: 8px;
+}
+
+.appears {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--borderColor2);
+  border-width: 0 0 0px 0;
+}
+
+.world-image {
+  width: 400px;
+  max-width: 80vw;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
+  -webkit-mask-image: radial-gradient(
+    ellipse 67% 71% at 50% 50%,
+    black 49%,
+    transparent 78%
+  );
+  mask-image: radial-gradient(
+    ellipse 67% 71% at 50% 50%,
+    black 49%,
+    transparent 78%
+  );
+}
+.description {
+  height: 200px;
+  display: flex;
+}

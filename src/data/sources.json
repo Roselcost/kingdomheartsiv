@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Japanese official website",
+    "img": "icons/kh4icon.png",
+    "url": "https://www.jp.square-enix.com/kingdom/kh4/"
+  },
+  {
+    "name": "Instagram",
+    "img": "icons/dayslogo.png",
+    "url": "https://www.instagram.com/kingdomhearts/"
+  },
+  {
+    "name": "χ",
+    "img": "icons/bbslogo.png",
+    "url": "https://x.com/KINGDOMHEARTS"
+  },
+  {
+    "name": "Youtube",
+    "img": "icons/dddlogo.png",
+    "url": "https://www.youtube.com/channel/UCCyrXyelKeXFx5KDgldMmNw"
+  },
+  {
+    "name": "Facebook",
+    "img": "icons/khilogo.png",
+    "url": "https://www.facebook.com/KingdomHearts/"
+  }
+]
