@@ -246,7 +246,7 @@ function App() {
                   <div className="spec">
                     <b>Next news</b>
                     <div>
-                      Honestly, no idea. Hopefully, at the Switch 2 presentation
+                      Honestly, no idea. Hopefully, at the Switch 2 showcase
                       event
                     </div>
                   </div>

@@ -207,7 +207,7 @@ li:hover,
 .hero-image {
   display: flex;
   position: relative;
-  max-width: min(1280px, 100vw);
+  max-width: min(1280px, 95vw);
   width: 1000px;
   aspect-ratio: 16/9;
   margin: auto;
@@ -286,6 +286,22 @@ li:hover,
   .quote {
     font-size: 14px;
     bottom: 25px;
+  }
+  .quote p {
+    margin: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-image {
+    width: 360px;
+  }
+  .quote {
+    font-size: 14px;
+    bottom: 10px;
+  }
+  .quote p {
+    margin: 3px;
   }
 }
 
@@ -409,6 +425,15 @@ li:hover,
   flex-wrap: wrap;
   gap: 40px;
   max-width: 500px;
+}
+
+@media (max-width: 1000px) {
+  .media-cards {
+    flex-direction: column;
+  }
+  .screenshots {
+    max-width: unset;
+  }
 }
 
 .screenshot {

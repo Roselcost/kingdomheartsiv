@@ -1,7 +1,7 @@
 .world {
   display: flex;
   position: relative;
-  max-width: calc(min(500px, 80vw));
+  max-width: calc(min(500px, 90vw));
 }
 
 .world-bg {
@@ -49,7 +49,6 @@
   border-radius: 12px;
   border: 1px solid var(--borderColor);
   max-width: 80vw;
-  flex-wrap: wrap;
 }
 
 .first-appearance {
