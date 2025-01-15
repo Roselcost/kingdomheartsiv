@@ -392,6 +392,8 @@ li:hover,
 .media {
   position: relative;
   overflow: hidden;
+  border: 1px solid var(--borderColor);
+  border-width: 1px 0;
 }
 
 .media-bg {
@@ -409,6 +411,7 @@ li:hover,
   width: 100%;
   height: 100%;
   filter: blur(5px) grayscale(1) brightness(0.4);
+  transform: scale(1.05);
 }
 
 .media-cards {
