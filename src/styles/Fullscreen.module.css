@@ -71,6 +71,7 @@
   transform: translateY(-5px);
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 .control img {
