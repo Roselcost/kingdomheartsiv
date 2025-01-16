@@ -2,6 +2,7 @@
   display: flex;
   position: relative;
   max-width: calc(min(500px, 90vw));
+  justify-content: center;
 }
 
 .world-bg {
@@ -10,7 +11,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  filter: blur(3px) brightness(0.5);
+  filter: blur(3px) brightness(0.8);
   z-index: -1;
   background-image: linear-gradient(
     to bottom,
@@ -18,23 +19,23 @@
     rgba(0, 0, 0, 0.5)
   );
   -webkit-mask-image: radial-gradient(
-    ellipse 64% 39% at 51% 76%,
-    black 49%,
-    transparent 78%
+    ellipse 100% 34% at 50% 70%,
+    black 67%,
+    transparent 85%
   );
   mask-image: radial-gradient(
-    ellipse 64% 39% at 51% 76%,
-    black 49%,
-    transparent 78%
+    ellipse 100% 34% at 50% 70%,
+    black 67%,
+    transparent 85%
   );
 }
 
 .world-info {
-  background-color: var(--transparentBgColor);
   border-radius: 8px;
   padding: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -69,21 +70,16 @@
 .world-image {
   width: 400px;
   max-width: 80vw;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
+  border: 1px solid var(--borderColor2);
+  mask-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0) 5%,
+    rgba(0, 0, 0, 1) 5%,
+    rgba(0, 0, 0, 1) 30%,
+    rgba(0, 0, 0, 1) 95%,
+    rgba(0, 0, 0, 0) 95%
   );
-  -webkit-mask-image: radial-gradient(
-    ellipse 67% 71% at 50% 50%,
-    black 49%,
-    transparent 78%
-  );
-  mask-image: radial-gradient(
-    ellipse 67% 71% at 50% 50%,
-    black 49%,
-    transparent 78%
-  );
+  transform: rotate(1deg);
 }
 .description {
   height: 200px;

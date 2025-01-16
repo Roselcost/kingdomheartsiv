@@ -233,22 +233,22 @@ function App() {
                   </div>
                   <div className="spec">
                     <b>Release Date</b>
-                    <div>TBA</div>
+                    <span>TBA</span>
                   </div>
                   <div className="spec">
                     <b>Developer</b>
-                    <div>Square Enix</div>
+                    <span>Square Enix</span>
                   </div>
                   <div className="spec">
                     <b>Director</b>
-                    <div>Tetsuya Nomura, Tai Yasue</div>
+                    <span>Tetsuya Nomura, Tai Yasue</span>
                   </div>
                   <div className="spec">
                     <b>Next news</b>
-                    <div>
-                      Honestly, no idea. Hopefully, at the Switch 2 showcase
-                      event
-                    </div>
+                    <span>
+                      Hopefully, at the Switch 2 showcase event. 2nd April,
+                      2025.
+                    </span>
                   </div>
                 </div>
               </div>
@@ -320,7 +320,7 @@ function App() {
         </section>
         <div className="media">
           <div className="media-bg">
-            <img src="bg/quadratum-night.jpeg"></img>
+            <img src="bg/quadratum-night.png"></img>
           </div>
           <section id="media">
             <h1>Media</h1>
@@ -335,7 +335,7 @@ function App() {
                 }}
               >
                 <Card title="Screenshots">
-                  <div className="screenshots">
+                  <div className="media-content">
                     {screenshots.map((screenshot, i) => (
                       <img
                         key={i}
@@ -357,15 +357,19 @@ function App() {
                 }}
               >
                 <Card title="Videos">
-                  <h3>Reveal Trailer | April 2022</h3>
-                  <iframe
-                    style={{ border: 0 }}
-                    width={isMobile ? 280 : 560}
-                    height={isMobile ? 158 : 315}
-                    src="https://www.youtube.com/embed/j2DSEkYFRh8?si=TRjDe34TKttrOdE8&amp;start=245"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  ></iframe>
+                  <div className="media-content">
+                    <div>
+                      <h3>Reveal Trailer | April 2022</h3>
+                      <iframe
+                        style={{ border: 0 }}
+                        width={isMobile ? 280 : 560}
+                        height={isMobile ? 158 : 315}
+                        src="https://www.youtube.com/embed/j2DSEkYFRh8?si=TRjDe34TKttrOdE8&amp;start=245"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      ></iframe>
+                    </div>
+                  </div>
                 </Card>
               </motion.div>
             </div>

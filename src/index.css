@@ -408,8 +408,7 @@ li:hover,
   position: absolute;
   z-index: -100;
   height: 100%;
-  min-width: 100%;
-  aspect-ratio: 16/9;
+  min-width: 100vw;
   border-color: var(--borderColor);
   border-style: solid;
   border-width: 1px 0;
@@ -418,7 +417,8 @@ li:hover,
 .media-bg img {
   width: 100%;
   height: 100%;
-  filter: blur(5px) grayscale(1) brightness(0.4);
+  filter: blur(5px) grayscale(1) brightness(0.2);
+  object-fit: cover;
   transform: scale(1.05);
 }
 
@@ -426,24 +426,27 @@ li:hover,
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 100px;
 }
 
-.screenshots {
+.media-content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 40px;
-  max-width: 500px;
+  max-width: 550px;
+  height: 450px;
+  overflow: auto;
 }
 
 @media (max-width: 1000px) {
   .media-cards {
     flex-direction: column;
   }
-  .screenshots {
+  .media-content {
     max-width: unset;
+    height: unset;
   }
 }
 
@@ -499,7 +502,7 @@ li:hover,
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 60px;
 }
 
 .sources {
