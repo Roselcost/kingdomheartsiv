@@ -8,11 +8,32 @@
   max-width: 100vw;
 }
 
-.char-info h2 {
-  height: 60px;
+.title {
+  height: 40px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 14px;
+  position: relative;
+}
+
+.title-decoration {
+  mask-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 30%,
+    rgba(0, 0, 0, 1) 70%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border: 1px solid var(--transparentBorder);
+  background-color: var(--transparentBgAccentColor);
+  width: 100%;
+  height: 100%;
+}
+
+.title h2 {
+  position: absolute;
 }
 
 .char-info p {
@@ -32,7 +53,7 @@
 }
 
 .char-image {
-  border: 1px solid var(--white);
+  border: 1px solid var(--textColor);
   width: 400px;
   max-width: 90vw;
   -webkit-mask-image: radial-gradient(

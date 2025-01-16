@@ -8,7 +8,10 @@ interface Props {
 const Character: React.FC<Props> = ({ data }) => {
   return (
     <div className={`${styles["char-info"]}`}>
-      <h2>{data.name}</h2>
+      <div className={`${styles["title"]}`}>
+        <div className={`${styles["title-decoration"]}`}></div>
+        <h2>{data.name}</h2>
+      </div>
       <div className={`${styles["char-image-container"]}`}>
         <img
           className={`${styles["char-image"]} ${styles["move-animation"]}`}
