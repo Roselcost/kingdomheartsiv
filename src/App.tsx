@@ -293,20 +293,21 @@ function App() {
                     <p>
                       Not much has been revealed since the announcement of
                       Kingdom Hearts IV back in April 2022 almost 3 years ago.
-                      Even though, from time to time Tetsuya Nomura, series
-                      director shares some little cues about KH4 and Missing
-                      Link. Today, given it's Birth by Sleep 15h anniversary,
-                      Nomura has been asked to give a detail not revealed until
-                      now. In several games, we can see different characters
-                      waiting for someone at a crossroads. That is inspired by
-                      an american folklore myth where a young man makes a deal
-                      with the devil at a crossroads, trading his soul for the
-                      ability to play the guitar. In Chain of Memories Sora
-                      loses his memories to gain others, in Birth by Sleep the
-                      three protagonists halted Xehanort's plans but they end up
-                      paying the price. In the secret ending of Kingdom Hearts
-                      III we see Sora at a crossroads. That's also the case for
-                      the Foretellers and Luxu. What could that mean?
+                      Even though, from time to time series director Tetsuya
+                      Nomura shares some little cues about KH4
+                      and Missing Link. Today, given it's Birth by Sleep 15th
+                      anniversary, Nomura has been asked to give a detail not
+                      revealed until now. In several games, we can see different
+                      characters waiting for someone at a crossroads. That is
+                      inspired by an american folklore myth where a young man
+                      makes a deal with the devil at a crossroads, trading his
+                      soul for the ability to play the guitar. In Chain of
+                      Memories Sora loses his memories to gain others, in Birth
+                      by Sleep the three protagonists halted Xehanort's plans
+                      but they end up paying the price. In the secret ending of
+                      Kingdom Hearts III we see Sora at a crossroads. That's
+                      also the case for the Foretellers and Luxu. What could
+                      that mean?
                     </p>
                     <img
                       className="news-screenshot"
